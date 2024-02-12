@@ -20,4 +20,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build project
-        run: g++ joust.cpp -std=c++17 -o firstIO
+        run: g++ joust.cpp -std=c++17 -o joust
